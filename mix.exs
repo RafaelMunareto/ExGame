@@ -1,9 +1,9 @@
-defmodule ElixirBackend.MixProject do
+defmodule ExGame.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :elixir_backend,
+      app: :ex_game,
       version: "0.1.0",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
